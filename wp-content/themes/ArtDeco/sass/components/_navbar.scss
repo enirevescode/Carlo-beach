@@ -1,0 +1,123 @@
+nav{
+   padding: 0;
+   width: 100%;
+   background-color: transparent;
+   position: absolute;
+}
+
+.flex{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+ul{
+   margin-bottom: 0 !important;
+}
+
+.navbar-one{
+    height: 55px;
+    top: 0;
+    color: white;
+}
+
+//navbar2
+li{
+   list-style: none;
+   a{
+      text-decoration: none;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-weight: 600;
+      color: #000;
+   }
+}
+
+.left, .right > div{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.navbar-second{
+   height: 80px;
+   margin-top: 80px;
+}
+
+.navbar-second >.right{
+      background-color: white;
+   }
+
+.compte{
+      text-decoration: none !important;
+      color: #FFF !important;
+   }
+
+// // OPACIFIER DROPDOWN //
+
+// .dropdown-menu{
+//    z-index: 10;
+// }
+
+//================
+//search navbar
+//================
+
+.searchBox {
+   background: white;
+   height: 40px;
+   border-radius: 40px;
+   padding: 10px;
+}
+
+.searchBox:hover > .searchInput {
+   width: 240px;
+   padding: 0 10px;
+}
+
+.searchBox:hover > .searchButton {
+ background: white;
+ color : $or;
+}
+
+.searchButton {
+   color: $or;
+   float: right;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.4s;
+   margin: -10px;
+}
+
+.searchInput {
+   border:none;
+   background: none;
+   outline:none;
+   float:left;
+   padding:0;
+   color: $or;
+   font-size: 20px;
+   transition: 0.4s;
+   line-height: 40px;
+   width: 0px;
+}
+
+ @media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+   width: 150px;
+   padding: 0 6px;
+}
+}
+
+#search_icon:before{
+      color: $or;
+      content: "\f002";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+   }

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*!
+Theme Name: direct_carbon
+Theme URI: https://enirevescode.fr/
+Author: enireves
+Author URI: https://enirevescode.fr/
+Description: est 1 theme propriétaire pour 1 site de compensation carbone
+Version: 1.0.0
+Text Domain: direct_carbon
+*/
+
+@import 'base/_fonts';
+
+@import "tools/_variables";
+@import "tools/_placeholders";
+
+
+@import "components/_booking";
+@import "components/_buttons";
+@import "components/_card";
+@import "components/_carousel";
+@import "components/_navbar";
+
+
+
+@import "section/_body";
+@import "section/_footer";
+@import "section/_forms";
+@import "section/_grid";
+@import "section/_header";

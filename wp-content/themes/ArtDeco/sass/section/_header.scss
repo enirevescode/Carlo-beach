@@ -1,0 +1,120 @@
+/***************************************************/
+/*==============       HEADER ++++++++++++         */
+/***************************************************/
+
+/* HEADER ACCUEIL DU SITE
++++++++++++++++++++++++++*/
+
+#header_accueil{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/fronton.jpg') no-repeat center center / cover;
+}
+
+#entete:before{
+   color: white;
+   margin-top: 50px;
+   content: "\f005 \f005 \f005 \f005 \f005";
+   font-family: "Font Awesome 5 Free";
+   font-weight: 600;
+}
+
+#account:before{
+   color: white;
+   content: "\f007";
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+   text-decoration: none;
+}
+
+.entete_h6{
+   padding-top: 350px;
+}
+
+.entete_h6, .entete2{
+   margin-left: 165px;
+   color: white;
+   text-shadow: 1px 1px 2px $or;
+}
+
+//++++++++++++++++++++++
+//HEADER CHBRES & SUITES
+//++++++++++++++++++++++
+
+#chbres_suites{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/vue_mer.jpeg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER COMPTE-
+//++++++++++++++++++++++
+
+#bg-i_compte{
+   margin:0;
+   background-image: url("./assets/images/piscine_ext.jpeg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   width:100%;
+   height:100%;
+   }
+
+//++++++++++++++++++++++
+//HEADER restaurants-
+//++++++++++++++++++++++
+#restaurants{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/restaurant.jpg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER activites-
+//++++++++++++++++++++++
+
+#activites{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/large-piscine.jpg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER spa-
+//++++++++++++++++++++++
+
+#spa{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/HOME_SPA.jpg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER agenda-
+//++++++++++++++++++++++
+
+#agenda{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/fiesta.jpg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER offres-
+//++++++++++++++++++++++
+
+#offres{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/agenda.jpg') no-repeat center center / cover;
+}
+
+//++++++++++++++++++++++
+//HEADER a propos-
+//++++++++++++++++++++++
+
+#a_propos{
+   width: 100%;
+   height: 90vh;
+   background: url('./assets/images/sea.jpeg') no-repeat center center / cover;
+}

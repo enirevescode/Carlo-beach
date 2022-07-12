@@ -1,0 +1,56 @@
+/*************************************************/
+/*                 C A R D                      */
+/***********************************************/
+
+/* ENCART_ACCUEIL*/
+
+.deco::after{
+   content: " ";
+   position: absolute;
+   background-color: $or;
+   height: 2px;
+   width: 75px;
+   bottom: -80px;
+   }
+
+.open{
+   text-align: justify;
+   color: #5c5c5c;
+}
+
+#more {display: none;}
+
+/*CARD SUR LA PRESENTATION DES CHAMBRES*/
+
+.title-module{
+   text-align: center;
+   width: 100%;
+}
+
+.card-title{
+   text-decoration: none;
+   color: black;
+   font-size: large;
+}
+
+.entete:before{
+   color: $or;
+   margin-top: 50px;
+   content: "\f005 \f005 \f005 \f005 \f005";
+   font-family: "Font Awesome 5 Free";
+   font-weight: 200;
+}
+
+
+//=====================================
+// SECTION CARD PRESENTATION DES RESTAU
+//=====================================
+
+.card_restaurant,  .card_spa{
+   background-color: #f6f6f6;
+   margin-top: 20px;
+}
+
+.img-fluid{
+   height: 100% !important;
+}
